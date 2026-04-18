@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CloudTech Solutions</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    /* NAVBAR */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      background: #0a192f;
+      color: white;
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .btn {
+      background: #00c6ff;
+      border: none;
+      padding: 10px 18px;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /* HERO */
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 80px 60px;
+      background: linear-gradient(to right, #0a192f, #112240);
+      color: white;
+    }
+
+    .hero-text {
+      max-width: 500px;
+    }
+
+    .hero-text h1 {
+      font-size: 42px;
+      margin-bottom: 20px;
+    }
+
+    .hero-text p {
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+
+    .hero-buttons button {
+      margin-right: 10px;
+      padding: 12px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .primary {
+      background: #00c6ff;
+      color: white;
+    }
+
+    .secondary {
+      background: transparent;
+      border: 1px solid white;
+      color: white;
+    }
+
+    /* SERVICES */
+    .services {
+      padding: 60px;
+      text-align: center;
+      background: #f5f7fa;
+    }
+
+    .service-box {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      width: 250px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    /* FOOTER */
+    footer {
+      background: #0a192f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar">
+      <h2 class="logo">CloudTech</h2>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Solutions</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <button class="btn">Get Started</button>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Secure & Scalable Cloud Solutions</h1>
+      <p>
+        Transform your business with high-performance cloud infrastructure,
+        AI-powered analytics, and enterprise-grade security.
+      </p>
+      <div class="hero-buttons">
+        <button class="primary">Start Free Trial</button>
+        <button class="secondary">Learn More</button>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img src="https://cdn-icons-png.flaticon.com/512/4144/4144517.png" width="300">
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services">
+    <h2>Our Services</h2>
+    <div class="service-box">
+      <div class="card">
+        <h3>Cloud Storage</h3>
+        <p>Secure and scalable storage solutions for your data.</p>
+      </div>
+      <div class="card">
+        <h3>Cloud Computing</h3>
+        <p>Powerful computing resources on demand.</p>
+      </div>
+      <div class="card">
+        <h3>AI Integration</h3>
+        <p>Smart analytics and automation with AI tools.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 CloudTech Solutions | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
